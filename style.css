@@ -1,0 +1,60 @@
+﻿table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #000; /* Черная граница для лучшей видимости */
+    padding: 8px;
+    text-align: center;
+}
+/* Стили для объединенной ячейки */
+.header-cell {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.period-text {
+    font-size: 22px; /* Крупный размер */
+    color: black;
+    font-weight: bold;
+    display: block; /* Важно: заставляет элемент вести себя как блок, чтобы занимать отдельную строку */
+    margin-bottom: 5px; /* Небольшой отступ снизу */
+}
+
+.large-text {
+    font-size: 24px; /* Крупный размер */
+    color: black;
+    font-weight: bold;
+    display: block; /* Важно: заставляет элемент вести себя как блок, чтобы занимать отдельную строку */
+    margin-bottom: 5px; /* Небольшой отступ снизу */
+}
+
+/* Класс для второй, мелкой надписи */
+.small-text {
+    font-size: 12px; /* Мелкий размер */
+    color: gray;
+    display: block; /* Занимает отдельную строку */
+}
+
+.middle-text {
+    font-size: 15px;
+    color: gray;
+    display: block;
+}
+
+.right-top-text {
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    color: #0000FF;
+    display: block;
+}
+
+.middle-top-text {
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    color: #008000;
+    display: block;
+}
