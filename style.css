@@ -30,6 +30,13 @@ th, td {
     margin-bottom: 5px; /* Небольшой отступ снизу */
 }
 
+.large-text-2 {
+    font-size: 24px; /* Крупный размер */
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px; /* Небольшой отступ снизу */
+}
+
 /* Класс для второй, мелкой надписи */
 .small-text {
     font-size: 12px; /* Мелкий размер */
